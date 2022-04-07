@@ -89,18 +89,6 @@
 
                 </androidx.constraintlayout.widget.ConstraintLayout>
 
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="5dp"
-                    android:layout_marginBottom="5dp"
-                    android:textSize="18sp"
-                    android:fontFamily="@font/baloo_thambi"
-                    android:gravity="center"
-                    android:text="Testpress Tech Labs LLP Developer Assessment Round"
-                    android:textColor="@color/blue" />
-
-
                 <ScrollView
                     android:id="@+id/scrollView"
                     android:layout_width="match_parent"
@@ -857,11 +845,11 @@ many correct answers the user got, and a message showing pass or fail."
             android:layout_height="wrap_content"
             android:background="@drawable/greenbutton"
 
+            android:onClick="GoToHome"
             android:padding="1dp"
             android:text="Home"
             android:textColor="@color/white"
             android:textSize="15sp"
-            android:onClick="GoToHome"
             android:textStyle="bold"
             android:visibility="visible"
             app:layout_constraintBottom_toBottomOf="parent"
